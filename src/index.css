@@ -1,6 +1,40 @@
 @import "tailwindcss";
+/* Import ฟอนต์จาก Google Fonts ครบทั้งสามฟอนต์ */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;600&family=Libre+Caslon+Display:wght@400;700&family=Italianno&display=swap');
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+/* ฟอนต์ Josefin Slab */
+.font-josefin {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color: white;
+}
+
+/* ฟอนต์ Libre Caslon Display */
+.font-libre {
+  font-family: 'Libre Caslon Display', serif;
+  font-weight: 600;
+  color: white;
+}
+
+/* ฟอนต์ Italianno */
+.font-italianno {
+  font-family: 'Italianno', cursive;
+  font-weight: 600;
+  color: white;
+}
+
+/* ตัวอักษรขอบดำแบบวินเทจ */
+.fancy-text {
+  color: white;
+  -webkit-text-stroke: 3px black;
+  text-stroke: 3px black; /* ขอบดำ */
+  text-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.7),
+    0 0 10px rgba(0, 0, 0, 0.6);
 }
