@@ -5,7 +5,7 @@ const ABOUT_IMAGE_URL =
   "https://cdn.discordapp.com/attachments/1159103768252665906/1431665627332087950/722f750303ad6af6ba59ef95e58ff5f42ed09808.png?ex=68fe3e04&is=68fcec84&hm=5d28e1e034c4a7e9ac721721d5b9a8fbb1d5eb1330262ad4f10d42d641ff9812&";
 
 const AboutSection = ({ isFullPage }) => {
-  const sectionHeightClass = isFullPage ? "h-screen" : "h-[85vh] md:h-[650px]";
+  const sectionHeightClass = isFullPage ? "h-screen" : "h-[85vh] md:h-[700px]";
 
   return (
     <>
@@ -20,23 +20,24 @@ const AboutSection = ({ isFullPage }) => {
             isFullPage ? "pt-[100px]" : ""
           }`}
         >
-          <div className="absolute w-[900px] h-[880px] top-[180px] left-0 rotate-[-0.14deg] opacity-100">
+          <div className="absolute w-[680px] h-[800px] top-[145px] left-0 ">
             <img
               src={ABOUT_IMAGE_URL}
               alt="About"
-              className="w-full h-full object-cover grayscale brightness-90"
+              className="w-full h-full  grayscale brightness-90"
             />
           </div>
 
-          <div className="w-full md:w-1/2 h-full bg-black/80 text-white p-10 md:p-19 flex flex-col justify-start flex-grow">
+          <div className="w-full md:w-1/2 h-full bg-black/80 text-white p-10 md:p-19 flex flex-col justify-start flex-grow"  style={{ backgroundColor: '#383A3D' }}>
+          
             <h2
-              className="font-whisper text-gray-200 font-bold tracking-wide drop-shadow-lg text-6xl md:text-8xl mb-8"
+              className="font-whisper text-gray-200  tracking-wide drop-shadow-lg text-6xl md:text-8xl mb-8"
               style={{
                 position: "absolute",
                 width: "600px",
                 height: "450",
-                top: "100",
-                left: "1150px",
+                top: "150px",
+                left: "900px",
                 fontSize: "128px",
                 lineHeight: "1.1",
                 letterSpacing: "0.5px",
@@ -55,10 +56,10 @@ const AboutSection = ({ isFullPage }) => {
                 position: "absolute",
                 width: "602.86px",
                 height: "436.70px",
-                top: "328.24px",
-                left: "1150px",
+                top: "300px",
+                left: "900px",
                 fontSize: "40px",
-                lineHeight: "1",
+                lineHeight: "1.6",
                 letterSpacing: "0.5px",
                 textAlign: "left",
                 opacity: 1,
@@ -77,13 +78,13 @@ const AboutSection = ({ isFullPage }) => {
               style={{
                 width: "534.85px",
                 height: "91.98px",
-                top: "854.59px",
-                left: "1150px",
+                top: "800px",
+                left: "900px",
                 textAlign: "left",
               }}
             >
               <div className="text-left">
-                <p className="font-saira text-gray-200 italic text-lg mb-1">
+                <p className="font-saira text-gray-200 italic text-5xl mb-1">
                   With Love and Kindness,
                 </p>
                 <p className="text-gray-200 font-semibold italic text-3xl">

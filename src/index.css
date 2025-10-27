@@ -1,7 +1,5 @@
 @import "tailwindcss";
-/* Import ฟอนต์จาก Google Fonts ครบทุกฟอนต์ที่ต้องการ */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,600;1,400&family=Libre+Caslon+Display&family=Italianno&family=Saira+Extra+Condensed:wght@400;700&family=The+Nautigal:wght@400;700&family=Whisper&display=swap');
-
 /* ฟอนต์ Josefin Slab */
 .font-josefin {
   font-family: 'Josefin Slab', serif;

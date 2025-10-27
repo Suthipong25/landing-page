@@ -56,7 +56,7 @@ const Navbar = () => {
       <nav className="fixed top-[30px] left-0 w-full z-40 bg-white backdrop-blur-sm px-4 py-0 flex justify-between items-center shadow-sm">
         <Link
           to="/"
-          className="text-[90px] !text-black ml-1 hover:text-gray-500 transition font-italianno"
+          className="text-[70px] !text-black ml-6 hover:text-gray-500 transition pt-2 pb-1 font-italianno"
         >
           BisTro
         </Link>
@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link
               key={item.name}
               to={item.path}
-              className={`w-[150px] h-[55px] flex items-center justify-center rounded-[17px] text-4xl font-medium transition border border-[#332B2B] border-[1px] shadow-md font-['Italianno']
+              className={`w-[160px] h-[45px]  flex items-center justify-center rounded-[15px] text-4xl font-medium transition border border-[#332B2B] border-[1px] shadow-md font-['Italianno']
                 ${
                   location.pathname === item.path ||
                   (location.pathname === "/" && item.name === "Home")
