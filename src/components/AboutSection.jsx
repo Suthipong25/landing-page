@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
 
-const ABOUT_IMAGE_URL =
-  "https://cdn.discordapp.com/attachments/1159103768252665906/1431665627332087950/722f750303ad6af6ba59ef95e58ff5f42ed09808.png?ex=68fe3e04&is=68fcec84&hm=5d28e1e034c4a7e9ac721721d5b9a8fbb1d5eb1330262ad4f10d42d641ff9812&";
+// 💡 เปลี่ยนจาก URL เป็นการ Import รูปภาพจาก Assets
+import ABOUT_IMAGE from "../assets/Muhammad_Ali.png"; 
 
 const AboutSection = ({ isFullPage }) => {
   const sectionHeightClass = isFullPage ? "h-screen" : "h-[85vh] md:h-[700px]";
@@ -22,16 +22,17 @@ const AboutSection = ({ isFullPage }) => {
         >
           <div className="absolute w-[680px] h-[800px] top-[145px] left-0 ">
             <img
-              src={ABOUT_IMAGE_URL}
+              
+              src={ABOUT_IMAGE}
               alt="About"
-              className="w-full h-full  grayscale brightness-90"
+              className="w-full h-full grayscale brightness-90"
             />
           </div>
 
-          <div className="w-full md:w-1/2 h-full bg-black/80 text-white p-10 md:p-19 flex flex-col justify-start flex-grow"  style={{ backgroundColor: '#383A3D' }}>
+          <div className="w-full md:w-1/2 h-full bg-black/80 text-white p-10 md:p-19 flex flex-col justify-start flex-grow" style={{ backgroundColor: '#383A3D' }}>
           
             <h2
-              className="font-whisper text-gray-200  tracking-wide drop-shadow-lg text-6xl md:text-8xl mb-8"
+              className="font-whisper text-gray-200 tracking-wide drop-shadow-lg text-6xl md:text-8xl mb-8"
               style={{
                 position: "absolute",
                 width: "600px",
@@ -51,7 +52,7 @@ const AboutSection = ({ isFullPage }) => {
             </h2>
 
             <p
-              className="font-saira  text-gray-200"
+              className="font-saira text-gray-200"
               style={{
                 position: "absolute",
                 width: "602.86px",
@@ -64,6 +65,7 @@ const AboutSection = ({ isFullPage }) => {
                 textAlign: "left",
                 opacity: 1,
                 overflowWrap: "break-word",
+                wordBreak: "break-word",
               }}
             >
               LL2 — The Most Dangerous Man have a new Challenge for Life Because
@@ -84,7 +86,7 @@ const AboutSection = ({ isFullPage }) => {
               }}
             >
               <div className="text-left">
-                <p className="font-saira text-gray-200 italic text-5xl mb-1">
+                <p className="font-saira text-gray-200 text-5xl mb-1">
                   With Love and Kindness,
                 </p>
                 <p className="text-gray-200 font-semibold italic text-3xl">

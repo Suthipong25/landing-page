@@ -1,12 +1,10 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-const TWITTER_ICON_URL =
-  "https://cdn.discordapp.com/attachments/1159103768252665906/1431544543781589084/dcc8c77ed64cc2d0a5ebc6c68f7096885615c5d7.png?ex=68fdcd40&is=68fc7bc0&hm=52f74838d0a6510ad09643f17bce762522613ad37443fda53b307212bfaa897f&";
-const FACEBOOK_ICON_URL =
-  "https://cdn.discordapp.com/attachments/1159103768252665906/1431544543395971133/3a8671745ff251667c54f03aa293cfbd07922c1b.png?ex=68fdcd3f&is=68fc7bbf&hm=2b8d46501c1a2cf9a6375436b927adc7e0b28e30672f9845bb3c50671466896e&";
-const INSTAGRAM_ICON_URL =
-  "https://cdn.discordapp.com/attachments/1159103768252665906/1431544542896590960/de2017cdc3e9bdbe03bbf6a2acc6600da835733f.png?ex=68fdcd3f&is=68fc7bbf&hm=7496d8da09c681fa456b7f2a63cb7d6059b98b49cfc257c7b33da10bf0e0855d&";
+
+import TWITTER_ICON from "../assets/twitter-icon.png"; 
+import FACEBOOK_ICON from "../assets/facebook-icon.png";
+import INSTAGRAM_ICON from "../assets/instagram-icon.png";
 
 const Navbar = () => {
   const location = useLocation();
@@ -33,21 +31,24 @@ const Navbar = () => {
         </div>
         <div className="flex items-center space-x-3">
           <a href="https://x.com" target="_blank" rel="noopener noreferrer">
-            <img src={TWITTER_ICON_URL} alt="Twitter" className="h-9 w-9" />
+            {/* 💡 ใช้ตัวแปรที่ import มาแทน URL */}
+            <img src={TWITTER_ICON} alt="Twitter" className="h-9 w-9" />
           </a>
           <a
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={FACEBOOK_ICON_URL} alt="Facebook" className="h-9 w-9" />
+            {/* 💡 ใช้ตัวแปรที่ import มาแทน URL */}
+            <img src={FACEBOOK_ICON} alt="Facebook" className="h-9 w-9" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={INSTAGRAM_ICON_URL} alt="Instagram" className="h-9 w-9" />
+            {/* 💡 ใช้ตัวแปรที่ import มาแทน URL */}
+            <img src={INSTAGRAM_ICON} alt="Instagram" className="h-9 w-9" />
           </a>
         </div>
       </div>
