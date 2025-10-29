@@ -89,7 +89,7 @@ const AboutSection = ({ isFullPage }) => {
                 <p className="font-saira text-gray-200 text-5xl mb-1">
                   With Love and Kindness,
                 </p>
-                <p className="text-gray-200 font-semibold italic text-3xl">
+                <p className="text-gray-200 font-semibold  text-3xl">
                   <span className="font-saira">Mr.</span>
                   <span className="font-nautigal">LL2</span>
                 </p>
