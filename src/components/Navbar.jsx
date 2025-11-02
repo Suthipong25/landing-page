@@ -55,12 +55,12 @@ const Navbar = () => {
 
       {/* 🔹 Navbar หลัก */}
       <nav className="fixed top-[30px] left-0 w-full z-40 bg-white backdrop-blur-sm px-4 py-0 flex justify-between items-center shadow-sm">
-        <Link
+        <div
           to="/"
           className="text-[70px] !text-black ml-6 hover:text-gray-500 transition pt-2 pb-1 font-italianno"
         >
           BisTro
-        </Link>
+        </div>
 
         <div className="flex space-x-3 mr-1">
           {navItems.map((item) => (

@@ -1,7 +1,5 @@
 import React from "react";
 import Navbar from "./Navbar";
-
-// 💡 เปลี่ยนจาก URL เป็นการ Import รูปภาพจาก Assets
 import ABOUT_IMAGE from "../assets/Muhammad_Ali.png"; 
 
 const AboutSection = ({ isFullPage }) => {
@@ -86,11 +84,11 @@ const AboutSection = ({ isFullPage }) => {
               }}
             >
               <div className="text-left">
-                <p className="font-saira text-gray-200 text-5xl mb-1">
+                <p className="font-saira text-gray-200 text-5xl mb-3">
                   With Love and Kindness
                 </p>
-                <p className="text-gray-200 font-semibold  text-3xl">
-                  <span className="font-saira">Mr.</span>
+                <p className="text-gray-200  text-5xl">
+                  <span className="font-saira">Mr. </span>
                   <span className="font-nautigal">LL2</span>
                 </p>
               </div>
