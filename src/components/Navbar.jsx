@@ -1,8 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-
-import TWITTER_ICON from "../assets/twitter-icon.png"; 
+import TWITTER_ICON from "../assets/twitter-icon.png";
 import FACEBOOK_ICON from "../assets/facebook-icon.png";
 import INSTAGRAM_ICON from "../assets/instagram-icon.png";
 
