@@ -15,7 +15,7 @@ const MenuSection = () => {
       <MenuNavbar />
 
       {/* Section: MENU */}
-      <section className="px-9 py-1">
+      <section className="px-9 py-3">
         <h1 className="text-[64px]  mb-2 font-playfairsc ">MENU</h1>
         <p className="text-[32px] mb-2 font-abhaya">The Pasta</p>
 
@@ -50,7 +50,7 @@ const MenuSection = () => {
             <img
               src={balongnesepasta}
               alt="balongnesepasta"
-              className="w-[350px] h-[263px] "
+              className="w-[350px] h-[263px]"
             />
             <div>
               <p className="text-[24px] mt-[-9px]">

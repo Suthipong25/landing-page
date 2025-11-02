@@ -1,12 +1,12 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // <-- import useNavigate
+import { useNavigate } from "react-router-dom"; 
 import { FaMotorcycle } from "react-icons/fa";
 import Delivery_Click from "../assets/Delivery_Click.png";
 
 const MenuNavbar = () => {
-  const navigate = useNavigate(); // <-- สร้าง navigate function
+  const navigate = useNavigate(); 
   const goToPopular = () => {
-    navigate("/menu"); // ✅ พาไปหน้า MenuSection
+    navigate("/menu"); 
   };
 
   const scrollToPopular = () => {
@@ -50,7 +50,7 @@ const MenuNavbar = () => {
   };
 
   return (
-    <nav className="w-full bg-[#D9D9D9] text-black flex flex-wrap justify-between items-center px-9 py-1 shadow-md font-abhaya">
+    <nav className="w-full bg-[#D9D9D9] text-black flex flex-wrap justify-between items-center px-7 py-0  shadow-md font-abhaya">
       <div className="flex items-center gap-3">
         <h2
           onClick={goToPopular}

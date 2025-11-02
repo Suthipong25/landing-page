@@ -15,7 +15,7 @@ const MenuSection = () => {
       <MenuNavbar />
       
       {/* Section: MENU */}
-      <section className="px-9 py-1">
+      <section className="px-9 py-3">
         <h1 className="text-[64px]  mb-2 font-playfairsc ">MENU</h1>
         <p className="text-[32px] mb-3 font-abhaya">The Popular Dished</p>
 
