@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* ✅ Import ฟอนต์ทั้งหมดจาก Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,600;1,400&family=Libre+Caslon+Display&family=Italianno&family=Saira+Extra+Condensed:wght@400;700&family=The+Nautigal:wght@400;700&family=Whisper&family=Abhaya+Libre:wght@400;600;700&family=Playfair+Display+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,400;0,600;1,400&family=Libre+Caslon+Display&family=Italianno&family=Saira+Extra+Condensed:wght@400;700&family=The+Nautigal:wght@400;700&family=Whisper&family=Abhaya+Libre:wght@400;600;700&family=Playfair+Display+SC:wght@400;700&family=Archivo&display=swap');
 
 /* ฟอนต์ Josefin Slab */
 .font-josefin {
@@ -41,6 +41,9 @@
 /* ✅ ฟอนต์ Playfair Display SC */
 .font-playfairsc {
   font-family: 'Playfair Display SC', serif;
+}
+.font-archivo {
+  font-family: 'Archivo', serif;
 }
 
 /* ตัวอักษรขอบดำแบบวินเทจ */

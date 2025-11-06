@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection.jsx";
 import AboutSection from "./components/AboutSection.jsx";
 import MenuSection from "./components/MenuSection.jsx";
 import PastaSection from "./components/PastaSection.jsx";
+import ReviewSection from "./components/ReviewSection.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
         <Route path="/menu" element={<MenuSection />} />
         <Route path="/Pasta" element={<PastaSection />} />
+        <Route path="/Review" element={<ReviewSection />} />
       </Routes>
     </BrowserRouter>
   );

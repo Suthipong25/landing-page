@@ -8,19 +8,19 @@ import agliooliopasta from "../assets/agliooliopasta.png";
 const MenuSection = () => {
   return (
     <div className="bg-[#383A3D] text-white  w-screen h-screen overflow-hidden">
-      {/* Navbar */}
+      
 
       <Navbar />
       <div className="mt-[140px]"></div>
       <MenuNavbar />
 
-      {/* Section: MENU */}
+      
       <section className="px-9 py-3">
         <h1 className="text-[64px]  mb-2 font-playfairsc ">MENU</h1>
         <p className="text-[32px] mb-2 font-abhaya">The Pasta</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-18">
-          {/* เมนูที่ 1 */}
+          
           <div className="flex items-start gap-8 font-abhaya text-[24px]">
             <img
               src={tomyumpasta}
@@ -45,7 +45,7 @@ const MenuSection = () => {
             </div>
           </div>
 
-          {/* เมนูที่ 2 */}
+         
           <div className="flex items-start gap-8 font-abhaya text-[24px]">
             <img
               src={balongnesepasta}
@@ -66,7 +66,7 @@ const MenuSection = () => {
             </div>
           </div>
 
-          {/* เมนูที่ 3 */}
+         
           <div className="flex items-start gap-8 font-abhaya text-[24px]">
             <img
               src={pestopasta}
@@ -88,7 +88,7 @@ const MenuSection = () => {
             </div>
           </div>
 
-          {/* เมนูที่ 4 */}
+         
           <div className="flex items-start gap-8 font-abhaya text-[24px]">
             <img
               src={agliooliopasta}
