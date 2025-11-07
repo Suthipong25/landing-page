@@ -6,10 +6,10 @@ const HERO_IMAGE_URL = "https://iili.io/KgyNccG.png";
 const HeroSection = () => {
   return (
     <div className="relative">
-      {/* ✅ Navbar fixed อยู่ด้านบน */}
+      
       <Navbar className="fixed top-0 left-0 w-full z-50" />
 
-      {/* 🔳 Hero Section เริ่มจากด้านล่าง Navbar */}
+      
       <header className="pt-[80px] h-screen relative">
         <div
           className="absolute inset-0 bg-no-repeat bg-cover bg-center"
