@@ -18,7 +18,7 @@ const AboutSection = ({ isFullPage }) => {
             isFullPage ? "pt-[100px]" : ""
           }`}
         >
-          <div className="absolute w-[680px] h-[800px] top-[145px] left-0 ">
+          <div className="absolute w-[780px] h-[950px] top-[140px] left-0 ">
             <img
               
               src={ABOUT_IMAGE}
@@ -58,7 +58,7 @@ const AboutSection = ({ isFullPage }) => {
                 top: "300px",
                 left: "900px",
                 fontSize: "40px",
-                lineHeight: "1.6",
+                lineHeight: "1.5",
                 letterSpacing: "0.5px",
                 textAlign: "left",
                 opacity: 1,
